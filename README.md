@@ -54,8 +54,7 @@ git clone https://github.com/alan-almeida-dev/-selenium-java.git
 Entre no diretório do projeto:
 
 ```bash
-cd -selenium-java
-```
+cd -selenium-java```
 
 Execute os testes com Maven:
 
