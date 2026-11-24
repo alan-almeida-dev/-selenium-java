@@ -1,64 +1,80 @@
-# 📋 Test Automation Project with Selenium and TestNG
+# Test Automation com Selenium e Java
 
-This repository contains various test automation scripts using Selenium WebDriver and TestNG. The scripts cover different scenarios, such as login functionality, form submission, and pre-registration on multiple websites. The project demonstrates the use of WebDriver, Page Object Model (POM), and TestNG for organizing and managing the test cases.
+Projeto de automação de testes desenvolvido utilizando Java, Selenium WebDriver e TestNG.
 
-## 📜 Table of Contents
-- [Features](#-features)
-- [Technologies Used](#️-technologies-used)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#prerequisites)
-- [How to Run](#how-to-run)
-- [Contribution](#contribution)
-- [License](#license)
-- [Contact](#contact)
+O projeto demonstra a utilização do padrão Page Object Model (POM) para organização dos testes e dos elementos utilizados durante as interações com as páginas.
 
-## ✨ Features
+## Cenários automatizados
 
-**Test Scenarios:**
-- ✅ Open Chrome and navigate to a URL
-- ✅ Successful login on "the-internet" website
-- ✅ Pre-registration on "automationexercise" website
-- ✅ Full registration form submission on "automationexercise" website
-- ✅ Using Page Object Model for form interactions
+O projeto contém cenários relacionados a:
 
-## 🛠️ Technologies Used
-- **Language:** Java
-- **Web Automation:** Selenium WebDriver
-- **Test Framework:** TestNG
-- **Design Pattern:** Page Object Model (POM)
+- Abertura do navegador e navegação para uma URL
+- Teste de login
+- Pré-cadastro
+- Preenchimento de formulário de cadastro
+- Interações com formulários utilizando Page Object Model
 
-## 📂 Project Structure
-- `src/main/java`: Page objects and utility classes
-- `src/test/java`: Test cases
-- `src/test/resources`: Configuration files
+## Tecnologias utilizadas
 
-## Prerequisites
-- Java JDK 8 or higher
+- Java
+- Selenium WebDriver
+- TestNG
 - Maven
-- ChromeDriver (or WebDriver for other browsers)
+- Page Object Model (POM)
 
-## How to Run
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/test-automation-project.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd test-automation-project
-    ```
-3. Execute the tests with Maven:
-    ```sh
-    mvn test
-    ```
+## Estrutura do projeto
 
-## Contribution
-Contributions are welcome! Please fork the repository and submit a pull request for review.
+```text
+- selenium-java/
+├── demo/
+│   ├── src/
+│   │   ├── main/
+│   │   │   └── java/
+│   │   ├── test/
+│   │   │   └── java/
+│   │   └── test/
+│   │       └── resources/
+└── README.md
+```
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Pré-requisitos
 
-## Contact
-For any inquiries, please contact:
-- **Name:** Alan Almeida
-- **Email:** alanalmeidadev12@example.com
-- **GitHub:** [Alan Almeida](https://github.com/AlanCodeQuality)
+- Java JDK 8 ou superior
+- Maven
+- ChromeDriver ou WebDriver compatível com o navegador utilizado
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/alan-almeida-dev/-selenium-java.git
+```
+
+Entre no diretório do projeto:
+
+```bash
+cd -selenium-java
+```
+
+Execute os testes com Maven:
+
+```bash
+mvn test
+```
+
+## Organização dos testes
+
+O projeto utiliza o padrão Page Object Model (POM) para separar a estrutura das páginas dos casos de teste.
+
+Essa abordagem facilita a organização e manutenção dos testes automatizados.
+
+## Objetivo
+
+O projeto foi desenvolvido como prática de automação de testes web utilizando Java, Selenium WebDriver e TestNG.
+
+## Autor
+
+Alan Almeida
+
+GitHub: https://github.com/alan-almeida-dev
